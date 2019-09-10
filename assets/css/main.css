@@ -2004,6 +2004,7 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		width: 5em;
 	}
 
 		.icon:before {
@@ -2633,7 +2634,7 @@ input, select, textarea {
 
 		#header h1 {
 			color: #ffffff;
-			font-size: 3.35em;
+			font-size: 3.0em;
 			line-height: 1.75em;
 			margin: 0;
 		}
