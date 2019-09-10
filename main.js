@@ -1,4 +1,4 @@
-var words = ["Student.", "Sexyboi.", "cutiepie"];
+var words = ["Developer.", "Designer.", "Entrepreneur."];
 var i = -1;
 
 function randomWord() {
@@ -10,15 +10,15 @@ function randomWord() {
         var word = words[i];
         console.log(words[i])
 
-        $("#random-word").fadeOut('fast', function () {
-            $(this).html(word).fadeIn("fast");
+        $("#random-word").fadeOut('slow', function () {
+            $(this).html(word).fadeIn("slow");
         });
         
         if (i === 2) {
             i = -1;
         }
 
-    }, 2000);
+    }, 3000);
 }
 
 randomWord();
