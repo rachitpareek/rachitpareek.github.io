@@ -1,4 +1,4 @@
-var words = ["Developer.", "Designer.", "Entrepreneur."];
+var words = ["Student.", "Developer.", "Entrepreneur."];
 var i = -1;
 
 function randomWord() {
