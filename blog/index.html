@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
 
-<h2>Recent Posts</h2>
+<h1>Blog</h1>
 
 <ul class="post-list">
-{% for post in site.posts limit:3 %}
+{% for post in site.posts %}
   <li>
     <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span> |
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -14,4 +14,6 @@ title: Home
 {% endfor %}
 </ul>
 
-<p><a href="{{ site.baseurl }}/blog/" class="see-more">See more →</a></p>
+{% if site.posts.size == 0 %}
+<p>No posts yet.</p>
+{% endif %}

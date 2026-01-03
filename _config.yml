@@ -1,0 +1,24 @@
+# Site settings
+title: Rachit Pareek
+description: Personal website and blog
+url: "https://rachithpareek.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - plan.markdown
+  - README.txt
+  - LICENSE.txt
+
+# Collections (optional, for future use)
+# collections:
+#   travel:
+#     output: true
+#     permalink: /travel/:name/
