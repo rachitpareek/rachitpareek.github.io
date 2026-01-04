@@ -6,6 +6,9 @@
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
 <body>
   {% include header.html %}
