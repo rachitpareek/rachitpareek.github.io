@@ -4,6 +4,6 @@ title: Non-profits
 permalink: /nonprofits/
 ---
 
-# Non-profits
+# Nonprofits
 
-[Add information about non-profits you're involved with or support]
+TODO
