@@ -1,7 +1,7 @@
 # Jekyll Migration Plan: Minimalist Personal Site Redesign
 
 ## Overview
-Migrate rachithpareek.com from static HTML to Jekyll-powered minimalist site inspired by Dan Luu's aesthetic.
+Migrate rachitpareek.com from static HTML to Jekyll-powered minimalist site inspired by Dan Luu's aesthetic.
 
 ## Design Principles
 - Minimal black text on white background
@@ -118,7 +118,7 @@ Migrate rachithpareek.com from static HTML to Jekyll-powered minimalist site ins
 
 2. **Configure GitHub Pages**
    - Ensure `_config.yml` has correct `baseurl` and `url`
-   - Set custom domain: rachithpareek.com
+   - Set custom domain: rachitpareek.com
    - Keep CNAME file for custom domain
 
 3. **Add robots.txt**
