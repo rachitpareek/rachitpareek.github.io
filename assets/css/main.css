@@ -8,7 +8,7 @@
 
 body {
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.6;
   color: #000;
   background-color: #fff;
@@ -48,7 +48,7 @@ footer {
 }
 
 footer nav {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 footer nav a {
