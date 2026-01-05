@@ -77,7 +77,14 @@ When raw notes reference images or pictures:
 - Get the GitHub-hosted URLs for each image (in the order they appear in PR comments)
 - Replace the placeholder comments with proper markdown image syntax: `![description](github-url)`
 - Match images to their placeholders based on order and description
-- Update the post with the image references
+- **Always add a caption** on the line immediately below the image using italic text: `*description*`
+- The caption should be the same as the image description
+- Format example:
+  ```markdown
+  ![Gap as a proportion of GDP](https://github.com/user-attachments/assets/image-url.png)
+  *Gap as a proportion of GDP*
+  ```
+- Update the post with the image references and captions
 
 #### What NOT to Do with Writing
 - **Don't over-polish**: Maintain raw, authentic quality over formal perfection
