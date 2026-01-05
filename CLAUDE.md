@@ -31,6 +31,28 @@ date: YYYY-MM-DD
 ---
 ```
 
+**Optional front matter fields:**
+- `excerpt:` - A brief summary for RSS feed and email newsletter (1-2 sentences)
+- If no excerpt is provided, Jekyll will use the first paragraph
+
+### RSS Feed and Newsletter Integration
+
+This site has an **auto-updating RSS feed** at `/feed.xml` and a **ConvertKit newsletter signup** on the blog index page.
+
+**When creating new blog posts:**
+- Write a strong opening paragraph (2-4 sentences) that works well as a standalone preview
+- This opening will appear in RSS readers and email newsletters
+- Optionally add `excerpt:` to front matter for a custom preview
+- Optionally use `<!--more-->` after the intro paragraph if you want to control where the excerpt ends
+
+**Do NOT modify these files** unless explicitly requested:
+- `_config.yml` (RSS/feed configuration)
+- `_includes/convertkit_signup.html` (newsletter embed)
+- `blog/index.html` (newsletter placement)
+- Feed autodiscovery in `_layouts/default.html`
+
+The RSS feed automatically includes all posts in `_posts/` - no additional action needed when creating new posts.
+
 ### Content Style and Tone
 
 The author's writing style is **conversational, authentic, and deliberately exploratory**. When transforming raw notes or dictations into blog posts, preserve these key characteristics:

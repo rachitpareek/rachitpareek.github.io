@@ -8,6 +8,14 @@ baseurl: ""
 markdown: kramdown
 permalink: /blog/:title/
 
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Author (for RSS feed)
+author:
+  name: Rachit Pareek
+
 # Exclude from processing
 exclude:
   - Gemfile
