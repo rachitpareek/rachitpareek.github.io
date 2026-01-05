@@ -146,6 +146,41 @@ blockquote {
   margin-bottom: 15px;
 }
 
+/* Tables */
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  font-weight: normal;
+  background-color: #f5f5f5;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+/* Image captions (italic text immediately after images) */
+img + em {
+  display: block;
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
 /* Mobile responsive */
 @media (max-width: 600px) {
   body {
