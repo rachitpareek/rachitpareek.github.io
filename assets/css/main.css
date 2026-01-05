@@ -181,6 +181,11 @@ img + em {
   margin-bottom: 20px;
 }
 
+/* Hide ConvertKit branding */
+.formkit-powered-by-convertkit-container {
+  display: none !important;
+}
+
 /* Mobile responsive */
 @media (max-width: 600px) {
   body {
