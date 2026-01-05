@@ -4,7 +4,7 @@ title: "Is the SSA Going Broke?"
 date: 2026-01-04
 ---
 
-The goal of this article is to practice understanding a federal institution including basics of its history, basic accounting and economics, and to understand some of the complexities involved with designing policy to address issues.
+Social Security's Old Age and Survivors Insurance trust fund is projected to run out of reserves by 2033, at which point it could only pay 77% of scheduled benefits. This article explores how Social Security actually works, why the projections have worsened over time, and what policy proposals exist to address the funding gap.
 
 ## How Does the SSA Work?
 

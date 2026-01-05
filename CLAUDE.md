@@ -40,8 +40,10 @@ date: YYYY-MM-DD
 This site has an **auto-updating RSS feed** at `/feed.xml` and a **ConvertKit newsletter signup** on the blog index page.
 
 **When creating new blog posts:**
-- Write a strong opening paragraph (2-4 sentences) that works well as a standalone preview
-- This opening will appear in RSS readers and email newsletters
+- **CRITICAL**: Write a strong opening paragraph that is **2-4 sentences maximum**
+- This opening paragraph must **describe what the essay is about** - the main topic, question, or argument
+- Avoid meta/process language ("The goal of this article is...") - get straight to the substance
+- This opening will appear in RSS readers and email newsletters as the preview
 - Optionally add `excerpt:` to front matter for a custom preview
 - Optionally use `<!--more-->` after the intro paragraph if you want to control where the excerpt ends
 
