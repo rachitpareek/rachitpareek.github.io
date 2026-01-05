@@ -80,6 +80,10 @@ Typically we've actually seen the trust fund ratio (which is the ratio between t
 | 2020 | 292 | 64 | 262 |
 | 2024 | 199 | 93 | 188 |
 
+![SSA Cost Rates: Historical and Projected](https://github.com/user-attachments/assets/9fbd61d0-7b9b-4413-8440-120d5d1767bf)
+
+*Chart showing historical and projected cost rates for OASI+DI and HI+SMI programs as a percentage of taxable payroll*
+
 You can see the full historical data and projections at the [SSA Trustees Report Summary](https://www.ssa.gov/oact/TRSUM/images/LD_ChartA.html).
 
 The 2010 Trustees report shows that they would have been overdrawn by 2037. And this has been revised to 2033 now.
@@ -101,6 +105,10 @@ Does the third factor mean workers will make less? Well, it means workers are as
 The gap is often measured as a percentage of payroll. The current tax rate is 12.4%, which is a percentage of the total payroll paid by eligible people—basically all private sector workers excluding government workers. We can measure the gap by saying how much would you have to increase that rate to cover all the expense needs.
 
 The annual balance deficit in 2024 for the OASDI trust funds was 1.34 percent of taxable payroll. Projected annual balance deficits for the OASDI program gradually increase from 2.35 percent of taxable payroll in 2025 to 5.43 percent in 2081, and then decline to 4.84 percent of taxable payroll in 2099.
+
+![Long-term OASDI and Medicare Cost Rate Projections](https://github.com/user-attachments/assets/32d039f0-22c9-42e2-a1d8-f602a7c63dec)
+
+*Chart showing the long-term projected cost rates as a percentage of taxable payroll for both OASDI and Medicare (HI+SMI) programs*
 
 You can see visualizations of the [long-term OASDI actuarial deficit](https://www.ssa.gov/oact/TRSUM/images/LD_ChartB.html).
 
