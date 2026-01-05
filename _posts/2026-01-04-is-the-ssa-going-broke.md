@@ -80,9 +80,9 @@ The Old-Age and Survivors Insurance (OASI) Trust Fund will be able to pay 100 pe
 
 Typically we've seen changes in the trust fund ratio, which is the ratio between the trust fund reserves at the start of the year and the total program expense over the course of the year.
 
-<!-- Image: comparison between the expenses and the cost as a percentage of the trust fund -->
+![Comparison between the expenses and the cost as a percentage of the trust fund](https://github.com/user-attachments/assets/8fecc47e-6c13-4ced-9714-4dff6846a90c)
 
-<!-- Image: current cost vs income for each of HI vs OASDI -->
+![Current cost vs income for each of HI vs OASDI](https://github.com/user-attachments/assets/b25fe55a-ea34-4f50-9f28-a3932dcd75ad)
 
 ## Why Did the Projections Get Worse?
 
@@ -108,7 +108,7 @@ What makes up more of GDP then? If labor's share is smaller, the non-labor share
 
 The gap is often measured as a percentage of payroll. The current tax rate is 12.4% which is a percentage of the total payroll paid by eligible people, basically all private sector workers excluding government workers. We can measure the gap by saying how much would you have to increase that rate to cover all the expense needs.
 
-<!-- Image: gap as a proportion of GDP -->
+![Gap as a proportion of GDP](https://github.com/user-attachments/assets/067139e4-8534-4605-8d93-30db9d83bfce)
 
 The annual balance deficit in 2024 for the OASDI trust funds was 1.34 percent of taxable payroll. Projected annual balance deficits for the OASDI program gradually increase from 2.35 percent of taxable payroll in 2025 to 5.43 percent in 2081, and then decline to 4.84 percent of taxable payroll in 2099.
 
