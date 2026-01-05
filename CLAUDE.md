@@ -64,6 +64,8 @@ The author's writing style is **conversational, authentic, and deliberately expl
 - **Don't eliminate casual language**: Conversational phrasing is intentional
 - **Don't add content**: Only work with what's in the original notes
 - **Don't force transitions**: Let ideas flow naturally, even if connections are loose
+- **Don't use em-dashes**: Use parentheses for asides, commas for pauses, or split into separate sentences
+- **Don't start sentences with filler words**: Avoid starting sentences with "So", "Well", or similar prepositions/connectors (but these are fine mid-sentence)
 
 ### Markdown Formatting
 - Use standard Markdown syntax
