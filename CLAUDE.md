@@ -57,6 +57,28 @@ The author's writing style is **conversational, authentic, and deliberately expl
 - Keep the exploratory, thinking-out-loud quality
 - Don't impose conclusions or tidy endings if the thought is genuinely open-ended
 
+#### Handling Formatting Instructions
+When raw notes include formatting instructions, apply the formatting instead of keeping the instruction:
+- **"underline this text"** or **"this should be underlined"** → Remove the instruction and apply markdown: `<u>this text</u>` or just use emphasis
+- **"italicize this"** or **"make this italic"** → Remove the instruction and apply: `*this text*`
+- **"bold this"** or **"make this bold"** → Remove the instruction and apply: `**this text**`
+- Any other formatting indicators → Interpret and apply the appropriate markdown syntax, don't leave the instruction in the text
+
+#### Handling Image Placeholders
+When raw notes reference images or pictures:
+
+**Initial PR creation:**
+- If notes say things like "picture one", "image showing X", "screenshot of Y", leave a placeholder comment in the markdown: `<!-- Image: description goes here -->`
+- Do NOT add image markdown syntax yet since images aren't uploaded
+
+**After user uploads images to PR comments:**
+- When user says "I've added the pictures to the PR" or "I've uploaded images to the PR comments"
+- Read the PR comments to see the uploaded images
+- Get the GitHub-hosted URLs for each image (in the order they appear in PR comments)
+- Replace the placeholder comments with proper markdown image syntax: `![description](github-url)`
+- Match images to their placeholders based on order and description
+- Update the post with the image references
+
 #### What NOT to Do with Writing
 - **Don't over-polish**: Maintain raw, authentic quality over formal perfection
 - **Don't remove uncertainty**: Self-aware commentary is a feature, not a bug
