@@ -186,6 +186,12 @@ img + em {
   display: none !important;
 }
 
+/* Remove top padding from ConvertKit form */
+.seva-form,
+.formkit-form {
+  padding-top: 0 !important;
+}
+
 /* Mobile responsive */
 @media (max-width: 600px) {
   body {
