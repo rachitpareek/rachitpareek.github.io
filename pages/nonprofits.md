@@ -8,9 +8,9 @@ permalink: /nonprofits/
 
 ## Mine
 
-**[Fremont Debate Academy](https://www.fremontdebate.org/)** — I started this one and continue to operate it. We've taught over 5,000 kids over the last 11 years, our volunteers have contributed a cumulative 30,000+ hours, and for two years we had a contract with Fremont Unified School District to facilitate programs at every elementary and middle school across the district.
+**[Fremont Debate Academy](https://www.fremontdebateacademy.org/)** — I started this one and continue to operate it. We've taught over 5,000 kids over the last 11 years, our volunteers have contributed a cumulative 30,000+ hours, and for two years we had a contract with Fremont Unified School District to facilitate programs at every elementary and middle school across the district.
 
-**[Akshaya Patra USA](https://www.akshayapatrausa.org/)** — I've been very closely involved with Akshaya Patra USA starting with the youth chapter in 2015 in the SF Bay Area, and I currently contribute to the AP USA Young Professionals Network.
+**[Akshaya Patra USA](https://apusa.org/)** — I've been very closely involved with Akshaya Patra USA starting with the youth chapter in 2015 in the SF Bay Area, and I currently contribute to the AP USA Young Professionals Network.
 
 ## Others
 
