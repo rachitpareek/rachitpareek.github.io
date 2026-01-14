@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Take Care of Yourself to be able to take care of others"
+title: "Take Care of Yourself to Take Care of Others"
 date: 2026-01-13
 ---
 
@@ -23,7 +23,9 @@ Living in service of others is meaningful and respectable but at the same time, 
 - not feeling guilty for not taking on an additional professional commitment when you know you're at your limit
 - taking some time to yourself to sort through your thoughts and emotions, or to nap, or to sleep better, or to exercise
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UI_gMvv0g8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="text-align: center;">
+<iframe width="315" height="560" src="https://www.youtube.com/embed/UI_gMvv0g8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
 
 *This is what got me thinking in this direction about two years ago.*
 

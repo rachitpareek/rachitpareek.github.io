@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Is the SSA Going Broke?"
+title: "Is the SSA Insolvent?"
 date: 2026-01-04
 ---
 
