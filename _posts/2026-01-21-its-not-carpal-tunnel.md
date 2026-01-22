@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "It's Not Carpal Tunnel?"
+title: "It's Not Carpal Tunnel?!"
 date: 2026-01-21
 excerpt: "What started as mild finger tingling from heavy trackpad use turned into a multi-year RSI journey that was initially misdiagnosed as carpal tunnel, but ultimately pointed to overuse, poor ergonomics, and stress rather than nerve damage. Meaningful improvement came from a combination of aggressive ergonomic changes, reduced typing (especially via dictation), better sleep, lower stress, and gradual strength and mobility work—not quick medical fixes."
 ---
@@ -97,7 +97,7 @@ Two books that were particularly impactful:
 
 ### Videos and Talks
 
-There was a lunch talk at Google about neuroplastic pain that I found really valuable: [Breakthrough with Healing Chronic Pain | Howard Schubiner | Talks at Google](https://www.youtube.com/watch?v=0VyH1laOd2M).
+[Breakthrough with Healing Chronic Pain](https://www.youtube.com/watch?v=0VyH1laOd2M)
 
 ## Ergonomic Recommendations
 
