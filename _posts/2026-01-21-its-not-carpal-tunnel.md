@@ -141,7 +141,10 @@ I recognize that these devices are not cheap, so I would explore the options tha
 
 I downloaded Wispr Flow, which is an incredible transcription app that costs about $150 a year. It serves as a separate keyboard on Mac/iOS and also an omnipresent tool on desktop. What I love about it is how high-quality the transcriptions are, how quick they are (although it does require an internet connection), how you can teach it specific words, have it take on different punctuation styles, and the company is well-funded and continuously growing. **Using this app has gotten rid of approximately 80% of my day-to-day typing.**
 
-The bulk of this article was written using this app and then manually edited (about 80% of it was dictated). [_Statistics on usage in recent months to be added_]
+The bulk of this article was written using this app and then manually edited (about 80% of it was dictated).
+
+![My usage stats from the last three months of 2025](https://github.com/user-attachments/assets/6c3ebaf8-c664-4db7-a0b4-abfc9b58aeb5)
+*My usage stats from the last three months of 2025*
 
 I also use the app on my desktop at work where I've connected a cheap set of wired headphones. I pick up the mic and speak and can whisper directly into it, allowing me to dictate messages, emails, and prompts for AI tools (Gemini, Cursor, etc.). Others also like to use a real mic on their desk, like [this](https://x.com/GergelyOrosz/status/1983460493575733759).
 
