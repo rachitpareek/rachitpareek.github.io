@@ -12,12 +12,31 @@
   {% endif %}
 </head>
 <body>
-  {% include header.html %}
+  <div class="page">
+    {% include header.html %}
 
-  <main>
-    {{ content }}
-  </main>
+    <main>
+      <div class="container">
+        {{ content }}
+      </div>
+    </main>
 
-  {% include footer.html %}
+    {% include footer.html %}
+  </div>
+  <script>
+    const progressBar = document.querySelector('.reading-progress');
+    if (progressBar) {
+      const updateProgress = () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        progressBar.style.width = `${progress}%`;
+      };
+
+      window.addEventListener('scroll', updateProgress, { passive: true });
+      window.addEventListener('resize', updateProgress);
+      updateProgress();
+    }
+  </script>
 </body>
 </html>
