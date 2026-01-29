@@ -3,15 +3,17 @@ layout: default
 title: Home
 ---
 
-<h2>Recent Posts</h2>
-
-<ul class="post-list">
-{% for post in site.posts limit:3 %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span> |
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-<p><a href="{{ site.baseurl }}/blog/" class="see-more">See more →</a></p>
+<section>
+  <h2 class="section-title">Latest Writing</h2>
+  <ul class="post-list">
+  {% for post in site.posts limit:4 %}
+    <li>
+      {% assign words = post.content | number_of_words %}
+      {% assign minutes = words | plus: 264 | divided_by: 265 %}
+      <div class="post-meta">{{ post.date | date: "%d %b, %Y" }}</div>
+      <div class="post-meta">{{ minutes }} min read</div>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</section>

@@ -2,11 +2,13 @@
 layout: default
 ---
 
+<div class="reading-progress" aria-hidden="true"></div>
+
 <article>
   <h1>{{ page.title }}</h1>
   {% assign words = content | number_of_words %}
   {% assign minutes = words | plus: 264 | divided_by: 265 %}
-  <p><em>{{ page.date | date: "%Y-%m-%d" }} · {{ minutes }} min read</em></p>
+  <p class="post-meta"><span>{{ page.date | date: "%Y-%m-%d" }}</span><span>{{ minutes }} min read</span></p>
 
   {{ content }}
 </article>
