@@ -3,15 +3,28 @@ layout: default
 title: Home
 ---
 
-<h2>Recent Posts</h2>
+<section class="intro">
+  <h1>Hi, I'm {{ site.title }}.</h1>
+  <p>Writing about product craft, travel notes, and the communities that shape my work.</p>
+  <div class="social-links">
+    <a href="{{ site.baseurl }}/blog/">Blog</a>
+    <a href="{{ site.baseurl }}/travel/">Travel</a>
+    <a href="{{ site.baseurl }}/nonprofits/">Nonprofits</a>
+    <a href="{{ site.baseurl }}/about/">About</a>
+  </div>
+</section>
 
-<ul class="post-list">
-{% for post in site.posts limit:3 %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span> |
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-
-<p><a href="{{ site.baseurl }}/blog/" class="see-more">See more →</a></p>
+<section>
+  <h2 class="section-title">Latest Writing</h2>
+  <ul class="post-list">
+  {% for post in site.posts limit:4 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <div class="post-meta">
+        <span>{{ post.date | date: "%d %b, %Y" }}</span>
+        <span>{{ post.excerpt | strip_html | truncate: 80 }}</span>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
