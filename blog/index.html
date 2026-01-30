@@ -1,28 +1,34 @@
 ---
 layout: default
 title: Blog
+page_class: blog
 ---
 
-<h1>Blog</h1>
+<section>
+  <h1 class="section-title">Blog</h1>
 
-<ul class="post-list">
-{% for post in site.posts %}
-  <li>
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span> |
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
-</ul>
-{% if site.posts.size == 0 %}
-<p>No posts yet.</p>
-{% endif %}
+  <ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      {% assign words = post.content | number_of_words %}
+      {% assign minutes = words | plus: 264 | divided_by: 265 %}
+      <div class="post-meta">{{ post.date | date: "%d %b, %Y" }}</div>
+      <div class="post-meta">{{ minutes }} min read</div>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  {% if site.posts.size == 0 %}
+  <p>No posts yet.</p>
+  {% endif %}
 
-{% assign total_words = 0 %}
-{% for post in site.posts %}
-  {% assign words = post.content | number_of_words %}
-  {% assign total_words = total_words | plus: words %}
-{% endfor %}
+  {% assign total_words = 0 %}
+  {% for post in site.posts %}
+    {% assign words = post.content | number_of_words %}
+    {% assign total_words = total_words | plus: words %}
+  {% endfor %}
 
-<div style="margin-top: 3em; padding-top: 1em; border-top: 1px solid #ccc; color: #666; font-size: 0.9em;">
-  <p>Total: {{ site.posts.size }} articles | {{ total_words | divided_by: 1000.0 | round: 1 }}k words</p>
-</div>
+  <div class="page-summary">
+    <p>Total: {{ site.posts.size }} articles | {{ total_words | divided_by: 1000.0 | round: 1 }}k words</p>
+  </div>
+</section>

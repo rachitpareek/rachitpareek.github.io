@@ -2,12 +2,14 @@
 layout: default
 title: About
 permalink: /about/
+page_class: about
 ---
 
-Hey 👋 
+# About
 
-I'm an SF Bay Area native currently working as a software engineer at [Roblox](https://www.roblox.com). Views are my own - if any of my ideas pique your interest, please feel free to reach out!
+<p class="page-lede">Hey 👋 I'm an SF Bay Area native currently working as a software engineer at <a href="https://www.roblox.com">Roblox</a>. Views are my own, and if any of my ideas pique your interest, please feel free to reach out.</p>
 
-- [LinkedIn](https://www.linkedin.com/in/rachitpareek/)
-- [GitHub](https://github.com/rachitpareek)
-
+<ul class="link-list">
+  <li><a href="https://www.linkedin.com/in/rachitpareek/">LinkedIn</a></li>
+  <li><a href="https://github.com/rachitpareek">GitHub</a></li>
+</ul>

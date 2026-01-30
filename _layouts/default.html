@@ -11,7 +11,7 @@
     {% include analytics.html %}
   {% endif %}
 </head>
-<body>
+<body class="{{ page.layout }}{% if page.page_class %} {{ page.page_class }}{% endif %}">
   <div class="page">
     {% include header.html %}
 

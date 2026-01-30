@@ -2,16 +2,33 @@
 layout: default
 title: Non-profits
 permalink: /nonprofits/
+page_class: nonprofits
 ---
 
 # Nonprofits
 
-## Mine
+<p class="page-lede">Organizations I support, with a few notes on how I'm involved.</p>
 
-**[Fremont Debate Academy](https://www.fremontdebateacademy.org/)** — I started this organization and continue to operate it. We've taught over 5,000 kids over the last 11 years, our volunteers have contributed a cumulative 30,000+ hours, and for two years we had a contract with Fremont Unified School District to facilitate programs at every elementary and middle school across the district.
+<section class="info-section">
+  <h2>Mine</h2>
+  <ul class="info-list">
+    <li>
+      <strong><a href="https://www.fremontdebateacademy.org/">Fremont Debate Academy</a></strong>
+      <p>I started this organization and continue to operate it. We've taught over 5,000 kids over the last 11 years, volunteers have contributed 30,000+ hours, and we partnered with Fremont Unified to run programs at every elementary and middle school across the district.</p>
+    </li>
+    <li>
+      <strong><a href="https://apusa.org/">Akshaya Patra USA</a></strong>
+      <p>Involved since the SF Bay Area youth chapter in 2015 and currently contributing to the AP USA Young Professionals Network. Their kitchens are remarkably efficient operations.</p>
+    </li>
+  </ul>
+</section>
 
-**[Akshaya Patra USA](https://apusa.org/)** — I've been involved with Akshaya Patra USA starting with the SF Bay Area youth chapter in 2015, and I currently contribute to the AP USA Young Professionals Network. I've had the opportunity to visit their "kitchens" and they are truly remarkably efficient operations.
-
-## Others
-
-**[Undue Medical Debt](https://unduemedicaldebt.org/)** — Donor-powered medical debt relief. Found this on Instagram and the concept is interesting: they buy extremely high-risk debt in bulk for about 1% of its cost (which means every dollar donated relieves roughly $100 in medical debt) - my guess is the organizations selling this debt had completely written it off already. 
+<section class="info-section">
+  <h2>Others</h2>
+  <ul class="info-list">
+    <li>
+      <strong><a href="https://unduemedicaldebt.org/">Undue Medical Debt</a></strong>
+      <p>Donor-powered medical debt relief. They buy high-risk debt for about 1% of its cost, so every dollar donated relieves roughly $100 in medical debt.</p>
+    </li>
+  </ul>
+</section>
