@@ -216,9 +216,32 @@ footer {
   color: var(--muted);
 }
 
-.footer-note {
-  margin-top: 10px;
-  font-size: 15px;
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--text);
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.footer-links a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.footer-links svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 
 article {
