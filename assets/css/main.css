@@ -139,6 +139,10 @@ main p {
   font-size: 16px;
 }
 
+.post-meta-separator {
+  margin: 0 8px;
+}
+
 .link-list {
   display: grid;
   gap: 8px;
@@ -230,6 +234,7 @@ footer {
   border-radius: 999px;
   border: 1px solid var(--border);
   color: var(--text);
+  line-height: 0;
   transition: border-color 0.2s ease, color 0.2s ease;
 }
 
@@ -239,8 +244,9 @@ footer {
 }
 
 .footer-links svg {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
+  display: block;
   fill: currentColor;
 }
 
@@ -255,6 +261,17 @@ article h1 {
 
 article p {
   margin-bottom: 18px;
+}
+
+article ul,
+article ol {
+  margin: 0 0 18px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+article li {
+  padding-left: 4px;
 }
 
 article blockquote {
