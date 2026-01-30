@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: "Garamond", "EB Garamond", "Times New Roman", serif;
+  font-family: "Inter", "Helvetica Neue", "Segoe UI", "Roboto", "Arial", sans-serif;
   font-size: 19px;
   line-height: 1.7;
   color: var(--text);
@@ -223,6 +223,7 @@ footer {
 .footer-links {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .footer-links a {
@@ -285,7 +286,7 @@ article blockquote {
   position: fixed;
   top: 0;
   left: 0;
-  height: 2px;
+  height: 4px;
   width: 0;
   background: linear-gradient(90deg, #b8b0a6, #d9d2c9);
   z-index: 9999;
