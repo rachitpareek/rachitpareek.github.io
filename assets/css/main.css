@@ -82,6 +82,10 @@ main {
   padding: 28px 0 56px;
 }
 
+.home main {
+  padding-top: 18px;
+}
+
 main h1 {
   font-size: clamp(30px, 6vw, 44px);
   margin-bottom: 16px;
@@ -128,6 +132,11 @@ main p {
   gap: 6px;
 }
 
+.post-list li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
 .post-list a {
   font-size: 22px;
   font-weight: 600;
@@ -164,6 +173,12 @@ main p {
 .info-list p {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.nonprofits main a,
+.travel main a,
+article a {
+  color: var(--accent);
 }
 
 .travel-list {

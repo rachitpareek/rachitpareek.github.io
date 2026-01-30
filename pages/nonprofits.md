@@ -7,7 +7,6 @@ page_class: nonprofits
 
 # Nonprofits
 
-<p class="page-lede">Organizations I support, with a few notes on how I'm involved.</p>
 
 <section class="info-section">
   <h2>Mine</h2>
