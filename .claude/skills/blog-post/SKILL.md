@@ -1,305 +1,204 @@
 ---
 name: blog-post
 description: |
-  Use this skill to create, review, or improve educational technical blog posts.
+  Use this skill to create, review, or improve blog posts from raw ideas, notes, or drafts.
   Invoke when the user asks to "create a blog post", "write an article", "review my post",
-  "improve the article", or any task related to educational ML content creation.
-argument-hint: "[action] [topic]"
+  "improve the article", "turn these notes into a post", or any task related to blog content creation.
+argument-hint: "[action] [topic-or-path]"
 ---
 
-# Educational Blog Post Workflow
+# Blog Post Workflow
 
-This skill orchestrates the creation and review of educational technical blog posts, drawing inspiration from Sebastian Raschka's writing style.
+This skill orchestrates the creation and review of blog posts for a personal Jekyll blog. It takes raw ideas, notes, or half-baked drafts and turns them into well-researched, well-structured posts that match the author's conversational, exploratory writing style.
+
+## Site Context
+
+- **Platform**: Jekyll, hosted on GitHub Pages
+- **Posts directory**: `_posts/` with format `YYYY-MM-DD-slug.md`
+- **Style**: Minimal (black text, white background, Times New Roman, no JavaScript)
+- **Writing voice**: Conversational, authentic, exploratory, first-person
+- **Topics**: Diverse (personal finance, health, tech, policy, life reflections)
+- **Full style guide**: See `CLAUDE.md` at repo root
 
 ## Reference Materials
 
-The following reference materials are available for style inspiration:
-- `.claude/skills/blog-post/references/raschka-articles/` - Full downloaded articles organized by type
-- `.claude/skills/blog-post/references/raschka-style-examples.md` - Writing patterns and examples
-- `.claude/skills/blog-post/references/papers/` - Downloaded research papers (organized by topic)
-
-**Note**: These patterns are guidance and inspiration, not strict requirements. Adapt them to fit the content naturally.
+Research output is stored in:
+- `.claude/skills/blog-post/references/` - Research notes organized by topic
+- `.claude/skills/blog-post/references/sources/` - Downloaded source material
+- `.claude/skills/blog-post/architecture/` - Article structure plans
 
 ## Available Actions
 
 Based on the user's request, determine which action to take:
 
-### 1. `plan [topic]` - Plan a New Article
-Use the **content-architect** agent to:
-- Analyze the topic
-- Design article structure
-- Identify needed visualizations (check reusable components first)
-- Plan code examples
-- Set learning objectives
+### 1. `research [topic]` - Gather Sources and Data
 
-### 1b. `review-plan [architecture-doc]` - Review Architecture Before Writing
-Use the **content-architecture-reviewer** agent to:
-- Evaluate structure and narrative flow
-- Identify missed visualization opportunities
-- Check if reusable interactive components could be used
-- Suggest clarity improvements
-- Verify motivation is front-loaded
-
-**Run this AFTER `plan` and BEFORE `write`.**
-
-### 2. `research [topic]` - Gather Sources
 Use the **source-researcher** agent to:
-- Find primary papers
-- **Download papers locally** (ar5iv HTML preferred, PDF fallback)
-- Trace historical context
-- Gather educational resources
-- Build bibliography
+- Search for authoritative sources (government data, academic papers, reputable journalism)
+- Download and extract key data, statistics, and quotes
+- Save research notes locally for the blog-writer to reference
+- Build a bibliography of sources for the Resources section
 
-### 3. `write [topic/section]` - Write Content
+### 2. `plan [topic-or-notes]` - Plan Article Structure
+
+Use the **content-architect** agent to:
+- Analyze the topic, notes, or existing draft
+- Design article structure that fits the author's style
+- Identify what research is still needed
+- Plan where data, tables, images, and links should go
+- Output a structure document
+
+### 3. `write [topic-or-path]` - Write or Rewrite Content
+
 Use the **blog-writer** agent to:
-- Draft the article or section
-- Follow Raschka's style guidelines
-- Include appropriate MDX components
-- Add visualizations and code
-- **Add article to content registry** (`src/components/ArticleContent.jsx`) for dev mode
+- Draft the full blog post (or rewrite an existing draft)
+- Follow the author's writing style from CLAUDE.md exactly
+- Incorporate research from the references directory
+- Output a complete Jekyll post with proper front matter
+- Place the file in `_posts/` with correct naming
 
-### 4. `review [article-path]` - Full Review
-Run the three content reviewers:
-1. **editorial-reviewer** - Writing quality and engagement
-2. **technical-reviewer** - Correctness and accuracy
-3. **student-reviewer** - Accessibility and clarity
+### 4. `review [post-path]` - Full Review
+
+Run two reviewers:
+1. **editorial-reviewer** - Voice, style, flow, authenticity
+2. **fact-checker** - Claims, data accuracy, source verification
 
 Present a consolidated review report.
 
-**Note**: Visualization review is skipped by default (slow, uses browser). Use `visual-review` explicitly when needed.
+### 5. `editorial [post-path]` - Editorial Review Only
 
-### 5. `editorial [article-path]` - Editorial Review Only
 Use the **editorial-reviewer** agent for:
-- Writing style and engagement
-- Article flow and transitions
+- Writing style match to author's voice
+- Flow and transitions
 - AI-voice pattern detection
-- Ungrounded claims (overclaiming, company motivations without citation)
-- Series cohesion (for multi-part articles)
+- Opening paragraph strength (critical for RSS/newsletter)
 
-### 6. `technical [article-path]` - Technical Review Only
-Use the **technical-reviewer** agent for correctness verification.
+### 6. `fact-check [post-path]` - Fact-Check Only
 
-### 7. `student [article-path]` - Student Review Only
-Use the **student-reviewer** agent for accessibility analysis.
+Use the **fact-checker** agent for:
+- Verify statistics and data claims
+- Check source accuracy
+- Confirm dates, names, and figures
+- Flag unsupported claims
 
-### 8. `visualize [topic/article]` - Design Visualizations
-Use the **visualization-designer** agent to:
-- Propose interactive React components (preferred over Mermaid)
-- Design diagrams with Framer Motion animations
-- Specify component requirements
+### 7. `improve [post-path]` - Improve Based on Reviews
 
-### 9. `visual-review [article-path]` - Visual Review Only
-Use the **visualization-reviewer** agent to:
-- Render visualizations in browser
-- Check legibility and contrast
-- Test dark mode support
-- Verify responsiveness
-- Check animation performance
-
-### 10. `improve [article-path]` - Improve Based on Reviews
 After reviews, use the **blog-writer** agent to:
 - Address editorial feedback
-- Fix technical issues
-- Clarify confusing sections
-- Add missing content
+- Fix factual issues
+- Strengthen weak sections
+- Maintain the author's voice throughout
 
-### 11. `polish [article-path]` - Auto-Improve Until Publication Ready
-**Runs in a loop until editorial, technical, and student reviewers all score 9/10 or above.**
+### 8. `polish [post-path]` - Auto-Improve Until Publication Ready
+
+Runs in a loop until editorial and fact-check reviewers both score 9/10 or above.
 
 Process:
-1. Run editorial, technical, and student reviewers
+1. Run editorial-reviewer and fact-checker
 2. If any score < 9/10:
    - Identify the lowest-scoring areas
    - Use blog-writer to address feedback
    - Re-run reviewers
-3. Repeat until all three score >= 9/10
+3. Repeat until both score >= 9/10
 4. Output final consolidated report
 
 **Maximum iterations**: 5 (to prevent infinite loops)
 
-**Note**: Visualization review is skipped by default (slow, uses browser). Run `visual-review` separately when needed.
-
-Usage:
-```
-/blog-post polish src/content/articles/foundations/my-article/index.mdx
-```
-
-This is the recommended way to finalize an article before publication.
-
 ## Full Article Creation Workflow
 
-For creating a complete new article, follow this sequence:
+For creating a complete new post from an idea or notes:
 
 ```
-Step 1: Plan
-/blog-post plan [topic]
-→ Creates detailed outline and structure
-→ Identifies visualization opportunities
-
-Step 2: Review Plan (IMPORTANT)
-/blog-post review-plan [architecture-doc]
-→ Reviews structure before writing begins
-→ Checks for missed interactivity opportunities
-→ Ensures reusable components are leveraged
-→ Catches structural issues early
-
-Step 3: Research
+Step 1: Research
 /blog-post research [topic]
-→ Gathers and downloads papers, sources, citations
+-> Gathers sources, data, statistics
+-> Saves research notes locally
 
-Step 4: Visualize
-/blog-post visualize [topic]
-→ Designs interactive React components (not Mermaid)
+Step 2: Plan
+/blog-post plan [topic-or-notes]
+-> Designs article structure
+-> Identifies gaps needing more research
 
-Step 5: Write
+Step 3: Write
 /blog-post write [topic]
-→ Creates full article draft
-→ **IMPORTANT**: Add article to registry in src/components/ArticleContent.jsx
+-> Creates full blog post draft in _posts/
+-> Incorporates research and structure plan
 
-Step 6: Polish (RECOMMENDED)
-/blog-post polish [article-path]
-→ Runs editorial, technical, student reviewers in a loop until all >= 9/10
-→ Visualization review skipped by default (run separately with visual-review if needed)
+Step 4: Polish (RECOMMENDED)
+/blog-post polish [post-path]
+-> Runs editorial + fact-check reviewers in a loop
+-> Auto-improves until both >= 9/10
 ```
 
-### Alternative Manual Workflow
+### Quick Single-Step Workflow
 
-If you prefer manual control:
-
-```
-Step 5a: Review
-/blog-post review [article-path]
-→ Gets feedback from all four reviewers
-
-Step 6a: Improve
-/blog-post improve [article-path]
-→ Addresses review feedback
-
-Step 7a: Repeat
-→ Continue review/improve until satisfied
-```
-
-## Article Location
-
-Articles are stored in:
-```
-src/content/articles/[category]/[article-name]/index.mdx
-```
-
-Categories:
-- `foundations` - Core ML concepts
-- `models` - Model architectures
-- `training` - Training techniques
-- `optimization` - Efficiency improvements
-- `applications` - Practical applications
-
-**Important**: After creating a new article, add it to the content registry in `src/components/ArticleContent.jsx`:
-```jsx
-'category/article-name': lazy(() => import('@/content/articles/category/article-name/index.mdx')),
-```
-This enables fast dev mode navigation. Without the registry entry, articles will 404 in dev mode.
-
-## Quick Commands
+For when the user provides detailed notes and wants a post fast:
 
 ```
-/blog-post plan attention-mechanisms
-/blog-post research rlhf
-/blog-post write foundations/rl-fundamentals
-/blog-post review src/content/articles/foundations/my-article/index.mdx
-/blog-post polish src/content/articles/foundations/my-article/index.mdx  # Auto-improve to 9/10+
-/blog-post editorial ./current-draft.mdx
-/blog-post technical ./current-draft.mdx
-/blog-post student ./current-draft.mdx
-/blog-post visual-review ./current-draft.mdx
-/blog-post visualize attention-mechanisms
-/blog-post improve ./current-draft.mdx
+/blog-post write [topic]
+-> Researches, plans, and writes in one pass
+-> Then run: /blog-post polish [post-path]
 ```
+
+## Post Location and Format
+
+Posts are stored in `_posts/` with Jekyll front matter:
+
+```markdown
+---
+layout: post
+title: "Post Title Here"
+date: YYYY-MM-DD
+---
+
+Post content in standard Markdown...
+```
+
+See CLAUDE.md for full formatting rules.
 
 ## Review Report Format
 
 When running full review, consolidate findings:
 
 ```markdown
-# Comprehensive Review: [Article Title]
+# Review: [Post Title]
 
-## Overall Scores
+## Scores
 | Aspect | Score | Reviewer |
 |--------|-------|----------|
 | Editorial Quality | X/10 | editorial-reviewer |
-| Technical Accuracy | X/10 | technical-reviewer |
-| Student Accessibility | X/10 | student-reviewer |
-| Visual Quality | X/10 | visualization-reviewer |
+| Factual Accuracy | X/10 | fact-checker |
 | **Overall** | **X/10** | Combined |
 
 ## Critical Issues (Must Fix)
-[Issues from all reviewers that block publication]
+[Issues that block publication]
 
-## High Priority Improvements
-[Significant improvements from all reviewers]
+## Improvements
+[Suggested enhancements]
 
-## Visual Issues
-[Rendering, legibility, dark mode, responsiveness issues]
-
-## Nice-to-Have Enhancements
-[Optional improvements]
-
-## Detailed Reports
-[Link to or include full reports from each reviewer]
+## Strengths
+[What works well]
 ```
-
-## Integration with Available Components
-
-The blog has these components available for articles:
-
-**Educational:**
-- `<Callout>` - Info, warning, tip, prerequisites boxes
-- `<Prerequisites>` - List required knowledge
-- `<TableOfContents>` - Auto-generated navigation
-- `<Timeline>` - Historical evolution
-- `<Comparison>` - Side-by-side analysis
-- `<PaperReference>` - Paper citations
-- `<Experiment>` - Results tables
-- `<Definition>` - Clickable term definitions
-
-**Visualizations (prefer custom React components):**
-- Custom React/SVG components with Framer Motion (PREFERRED)
-- `<InteractiveLineChart>` - Data visualization (Recharts)
-- `<InteractiveAreaChart>` - Area charts (Recharts)
-- `<InteractiveBarChart>` - Bar charts (Recharts)
-- `<ParameterSlider>` - Interactive controls
-- Avoid Mermaid - renders poorly across themes and devices
-
-**RL-Specific:**
-- `<MDPExplorer>` - Interactive gridworld
-- `<ValueIteration>` - Algorithm visualization
-- `<PolicyGradientViz>` - Gradient ascent
-- `<PPOClipping>` - PPO objective visualization
-
-**Code:**
-- `<PythonPlayground>` - In-browser Python execution
-
-## Topics from example.md
-
-The blog aims to cover these topics (reference when planning):
-- Reinforcement Learning (Bellman → modern RL)
-- Attention mechanisms
-- Transformer architecture
-- Autoencoders (VAE, diffusion)
-- Large Language Models
-- Training techniques (pretraining, finetuning, LoRA)
-- RLHF and modern alignment
-- Optimization (KV-cache, attention variants)
 
 ## Agent Summary
 
 | Agent | Purpose | Key Tools |
 |-------|---------|-----------|
-| content-architect | Plan article structure | Read, Glob, Grep, WebSearch |
-| content-architecture-reviewer | Review plan before writing | Read, Glob, Grep, WebSearch |
-| source-researcher | Find & download papers | WebSearch, WebFetch, Chrome, Write |
-| blog-writer | Write content | Read, Write, Edit |
-| editorial-reviewer | Writing quality, flow, AI-voice detection | Read, Glob, Grep, WebSearch, WebFetch, Write |
-| technical-reviewer | Accuracy check | Read, Glob, Grep, WebSearch, WebFetch, Write, Bash |
-| student-reviewer | Accessibility, math refreshers, proof formatting | Read, Glob, Grep, WebSearch, WebFetch, Write |
-| visualization-designer | Design visuals | Read, WebSearch, Write, Chrome |
-| visualization-reviewer | Verify visuals | Chrome browser tools |
+| source-researcher | Find sources, data, statistics | WebSearch, WebFetch, Write |
+| content-architect | Plan article structure | Read, WebSearch, Write |
+| blog-writer | Write content in author's voice | Read, Write, Edit, WebSearch |
+| editorial-reviewer | Voice, style, flow review | Read, WebSearch |
+| fact-checker | Verify claims and data | Read, WebSearch, WebFetch |
+
+## Quick Commands
+
+```
+/blog-post research social-security-solvency
+/blog-post plan credit-card-debt
+/blog-post write _posts/2026-03-08-new-topic.md
+/blog-post review _posts/2026-03-08-new-topic.md
+/blog-post polish _posts/2026-03-08-new-topic.md
+/blog-post editorial _posts/2026-03-08-new-topic.md
+/blog-post fact-check _posts/2026-03-08-new-topic.md
+/blog-post improve _posts/2026-03-08-new-topic.md
+```
