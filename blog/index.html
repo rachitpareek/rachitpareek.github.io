@@ -16,6 +16,8 @@ page_class: blog
         <span>{{ post.date | date: "%d %b, %Y" }}</span>
         <span class="post-meta-separator">|</span>
         <span>{{ minutes }} min read</span>
+        <span class="post-meta-separator">|</span>
+        <span>{{ words }} words</span>
       </p>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
