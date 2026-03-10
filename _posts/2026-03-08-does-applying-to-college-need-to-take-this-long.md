@@ -5,12 +5,12 @@ date: 2026-03-08
 excerpt: "Helping my brother apply to college made me wonder: how many cumulative hours are spent by students on applications, how much of that effort is wasted on schools they won't get into, and could we design a system where far less time, effort, and money is thrown away?"
 ---
 
-Helping my brother apply to college over the last few months made me acutely aware of the immense amount of time and pressure involved in this process. Students collectively submit millions of applications each year, but each student only gets into a subset of the schools they apply to, making the whole matching process remarkably inefficient. What if we could design a system where far less time, effort, and money is wasted?
+Helping my brother apply to college over the last few months made me acutely aware of the immense amount of time and pressure involved in this process. Students collectively submit millions of applications each year, but each student only gets into a subset of the schools they apply to, making the whole matching process pretty inefficient. I started wondering: could we design a system where far less time, effort, and money is wasted?
 
-Before diving further into that idea, a few reflections on undergraduate college applications in the United States:
+Before getting into that, a few reflections on undergraduate college applications in the United States:
 
-1. I acknowledge that I grew up privileged enough to go to college and have the privilege of being able to apply to competitive colleges, knowing that within reason I'd be able to attend them if I got in.
-1. College applications can bring out substantial negative practices ranging from lying, manufacturing sob stories, and working on extracurriculars solely for the sake of applications (although this one in particular, as long as some volunteering or some net good comes to the community in the process, I don't think joining additional extracurriculars to help with applications is purely a bad thing).
+1. I grew up privileged enough to go to college and to apply to competitive colleges, knowing that within reason I'd be able to attend them if I got in.
+1. College applications can bring out substantial negative practices ranging from lying, manufacturing sob stories, and working on extracurriculars solely for the sake of applications (although honestly, as long as some volunteering or some net good comes to the community in the process, I don't think joining additional extracurriculars to help with applications is purely a bad thing).
 1. I got to observe and re-experience constant feelings of stress, competition, comparison, and feeling like you're not enough throughout the process. On top of that, there's the constant stress about presenting what's already supposed to be a mature-for-your-age message or learning in an eye-catchingly narrative fashion.
 
 In retrospect, I wish I could remind my high school self that my worldview at the time was quite limited, despite having gone to extracurricular competitions with students from around the globe and having visited my extended family in India. I still had a relatively limited and linear perspective on what success in high school meant (namely getting great grades and eventually getting into a good college for a desirable major). I've since seen people come from very different educational, financial, and ethnic family backgrounds but end up working similar jobs or achieving similar levels of education and financial success.
@@ -19,11 +19,11 @@ In retrospect, I wish I could remind my high school self that my worldview at th
 
 ## What the Process Actually Looked Like
 
-Helping my brother through this, the process involved:
+Helping my brother through this, the process looked something like:
 
 1. Trying to identify a core guiding thread in all of the classes and extracurriculars he did over the course of high school (even though many of these things were driven by the opportunity presenting itself and out of pure interest, and even though those interests were very diverse as he continued to explore things like Model UN, interning at an ophthalmology clinic, etc.).
-1. Doing an immense amount of self-reflection and soul-searching to understand what it is about these different activities that motivated him, and to understand what he wanted to get out of college and what he wanted to use his education to do in the future.
-1. Writing an enormous number of essays back to back to back in a particular narrative style designed to demonstrate his personality, "intellectual vitality," and maturity of thinking while catching the admissions officer's eye. This was relatively different from the typical prose that he writes and that I was taught to write during high school.
+1. A lot of self-reflection and soul-searching to understand what it is about these different activities that motivated him, what he wanted to get out of college, and what he wanted to use his education to do in the future.
+1. Writing an enormous number of essays back to back to back in a particular narrative style designed to demonstrate his personality, "intellectual vitality," and maturity of thinking while catching the admissions officer's eye. This was pretty different from the typical prose that he writes and that I was taught to write during high school.
 
 Reflecting on this gave me an interesting question: how many cumulative hours are spent by students applying to college? And if the number is way higher than it needs to be, could we come up with a structured opportunity for them to spend that time elsewhere?
 
@@ -54,55 +54,55 @@ Here's a rough estimate of the time investment per applicant:
 |Financial Aid (FAFSA/CSS)|5 Hours|15 Hours|
 |**Total**|**~75 Hours**|**~300 Hours**|
 
-There are likely a large number of students doing the bare minimum, applying to a single school or only a couple with minimal essays. The Common Application processed 7 million applications in the 2023-2024 cycle. Because the United States has between 3.5 and 3.8 million high school graduates annually, if even a small fraction of these students spend 50+ hours on applications, their collective time investment is very large. 
+There are probably a large number of students doing the bare minimum, applying to a single school or only a couple with minimal essays. The Common Application processed 7 million applications in the 2023-2024 cycle. Because the United States has between 3.5 and 3.8 million high school graduates annually, if even a small fraction of these students spend 50+ hours on applications, the collective time investment is enormous. 
 
 ## The Problems
 
 ### Mental Health
 
-The admissions process is frequently cited as a primary driver of adolescent anxiety. Surveys indicate that 76% of students view the application process as a "life-defining moment," and 52% describe it as the most stressful academic experience they have ever faced. I can confirm from watching my brother go through it (and from my own experience years ago) that this stress is very real.
+The admissions process is one of the most commonly cited drivers of adolescent anxiety. Surveys indicate that 76% of students view the application process as a "life-defining moment," and 52% describe it as the most stressful academic experience they've ever faced. I can confirm from watching my brother go through it (and from my own experience years ago) that this stress is very real.
 
 ### The Paradox of "Holistic Review"
 
-The shift toward holistic review was intended to increase equity by looking beyond grades. But it has inadvertently maximized the time burden. By evaluating "unique experiences" and "personal qualities," colleges incentivize students to manufacture distinctiveness. The result is that students spend enormous amounts of time crafting narratives, curating extracurriculars, and packaging themselves as products for consumption by admissions offices.
+The shift toward holistic review was intended to increase equity by looking beyond grades. But it has inadvertently maximized the time burden. By evaluating "unique experiences" and "personal qualities," colleges incentivize students to manufacture distinctiveness. The result is that students spend enormous amounts of time crafting narratives, curating extracurriculars, and basically packaging themselves as products for admissions offices to consume.
 
 ### Acceptances Concentrate Among the Same Students
 
-It is true that a lot of the acceptances at Ivies and similarly selective schools concentrate among the same set of applicants. A student who gets into Harvard is likely also getting into Yale and Princeton. This means the system generates enormous redundancy: many students are writing dozens of essays for schools where the same small group of top applicants is collecting most of the offers.
+A lot of the acceptances at Ivies and similarly selective schools concentrate among the same set of applicants. A student who gets into Harvard is probably also getting into Yale and Princeton. This means the system generates enormous redundancy: many students are writing dozens of essays for schools where the same small group of top applicants is collecting most of the offers.
 
-The colleges' response to the pattern of shotgun applications is "yield rejection," where schools reject or waitlist applicants they suspect will choose a more prestigious school. This adds another layer of opacity and game theory to a process that's already opaque.
+The colleges' response to shotgun applications is "yield rejection," where schools reject or waitlist applicants they suspect will choose a more prestigious school. This adds another layer of game theory to a process that's already pretty opaque.
 
 ### The Real Winners
 
-The true "profit" in the system accrues to the gatekeepers of data and testing:
+The real profit in this system goes to the gatekeepers of data and testing:
 
-- **The College Board**: This non-profit organization reported over $1 billion in revenue in 2023, holding over $1.7 billion in cash and investments. A significant portion of this revenue is derived from AP exams ($98 per test) and SAT fees, costs that are effectively mandatory for students aiming for selective colleges.
+- **The College Board**: A non-profit that reported over $1 billion in revenue in 2023, holding over $1.7 billion in cash and investments. A significant portion of this revenue comes from AP exams ($98 per test) and SAT fees, costs that are effectively mandatory for students aiming for selective colleges.
 - **Executive Compensation**: The CEO of the College Board received compensation exceeding $2 million in 2024.
 - **Private Consulting**: Admissions consulting can run $10,000 to $100,000 per client, creating a market that overwhelmingly favors wealthy families.
 - **Application Fees**: Universities collectively generate an estimated $500 million per year in application fees.
 
 ## The Pipeline
 
-To evaluate alternatives, it helps to understand the baseline flow of students through the US education system:
+To think about alternatives, it helps to understand the baseline flow of students through the US education system:
 
 - **High school graduates**: The US produces approximately 3.5 to 3.8 million per year.
 - **Non-graduates**: The status dropout rate is roughly 5.3%.
 - **2-year college enrollment**: About 30-40% of college-goers start at a 2-year institution. The vast majority attend public community colleges (roughly 4.7 million enrolled).
-- **Completion rates**: This is the system's greatest failure point. Fewer than 40% of community college students earn a certificate or degree within six years. Among those who intend to transfer to a 4-year university (81%), only 33% successfully transfer, and only 14% of the original cohort eventually earn a bachelor's degree within six years.
+- **Completion rates**: This is probably the system's greatest failure point. Fewer than 40% of community college students earn a certificate or degree within six years. Among those who intend to transfer to a 4-year university (81%), only 33% successfully transfer, and only 14% of the original cohort eventually earn a bachelor's degree within six years.
 
-That last number is striking: 14% of community college students who intended to get a bachelor's degree actually get one within six years.
+That last number really stuck out to me: 14% of community college students who intended to get a bachelor's degree actually get one within six years.
 
 ## Is the Application Process Useful?
 
-Beyond the outcome, is the process itself valuable?
+Beyond the outcome though, is the process itself valuable?
 
-**The "resilience" argument**: Proponents argue that the process teaches resilience, self-reflection, and how to digest failure. Developing a narrative for the Common App can force a 17-year-old to synthesize their identity. There's also something to be said for learning to collect resources, present yourself, and apply for things, skills that translate to employment, graduate school, and other contexts.
+**The "resilience" argument**: Proponents argue that the process teaches resilience, self-reflection, and how to handle failure. Developing a narrative for the Common App can force a 17-year-old to synthesize their identity. There's also something to be said for learning to collect resources, present yourself, and apply for things (skills that translate to employment, graduate school, and other contexts).
 
-I'll also say this (and I think many of my friends would agree): being accepted to a highly ranked college was something many of us fixated on through high school. In retrospect, it was quite rare to meet someone who was genuinely unsatisfied with their college experience, particularly along the dimension of which university they attended. A very small number of people actually transferred colleges, excluding those who went to community colleges and then transferred to four-year programs since that was typically their plan from the start.
+I'll also say this (and I think many of my friends would agree): being accepted to a highly ranked college was something many of us fixated on through high school. In retrospect, it was quite rare to meet someone who was genuinely unsatisfied with their college experience, particularly in terms of which university they attended. A very small number of people actually transferred colleges, excluding those who went to community colleges and then transferred to four-year programs since that was typically their plan from the start.
 
 ## Could We Design Something Better?
 
-How else could students spend this time? I see an opportunity for some sort of structured program, either by opening up more community service contributions through high schools or by allowing students to volunteer in health clinics, in agriculture, or in education, giving them a structured path that guarantees acceptance to colleges.
+How else could students spend this time? I think there's an opportunity for some sort of structured program, either by opening up more community service contributions through high schools or by allowing students to volunteer in health clinics, in agriculture, or in education, giving them a structured path that guarantees acceptance to colleges.
 
 Some programs like this already exist:
 
@@ -128,9 +128,9 @@ And then there are national service programs like AmeriCorps and the GI Bill tha
 |Social Value|Neutral/Negative (Stress)|Negative (Resource Drain)|Positive (Public Good)|
 |Equity Impact|Favors Wealthy (Coaching)|Favors Wealthy (Fees)|Favors Civic Engagement|
 
-The service-for-admission model obviously requires a much larger time commitment (a full year), but the time is spent doing something directly valuable to the community rather than writing essays about yourself. And the outcome certainty is dramatically higher.
+The service-for-admission model obviously requires a much larger time commitment (a full year), but the time is spent doing something directly valuable to the community rather than writing essays about yourself. And the outcome certainty is way higher.
 
-I acknowledge this is a simplistic comparison. A service year isn't for everyone, and it doesn't address the core matching problem of getting students into schools that are the right fit. But the question I keep coming back to is: if we're going to ask 17-year-olds to spend hundreds of hours on something, shouldn't that something produce more value than polished application essays?
+I know this is a simplistic comparison. A service year isn't for everyone, and it doesn't address the core matching problem of getting students into schools that are the right fit. But the question I keep coming back to is: if we're going to ask 17-year-olds to spend hundreds of hours on something, shouldn't that something produce more value than polished application essays?
 
 ## Some Open Questions
 

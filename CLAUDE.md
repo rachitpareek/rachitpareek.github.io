@@ -1,5 +1,9 @@
 # Project Standards for Claude Code
 
+## Blog Writing Skill
+
+When creating or editing blog posts, use the `/blog-writer` skill (located at `.claude/commands/blog-writer.md`). This skill contains curated exemplars from the author's published writing that demonstrate the target voice and tone. Always invoke it for style passes and new post creation.
+
 ## Overview
 This is a minimalist personal website and blog built with Jekyll and hosted on GitHub Pages. The design prioritizes simplicity, speed, and readability over visual complexity.
 
