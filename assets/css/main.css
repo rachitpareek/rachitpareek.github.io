@@ -282,12 +282,31 @@ article p {
 article ul,
 article ol {
   margin: 0 0 18px;
-  padding-left: 0;
-  list-style-position: inside;
+  padding-left: 1.5em;
+  list-style-position: outside;
 }
 
 article li {
-  padding-left: 4px;
+  padding-left: 0.25em;
+}
+
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 18px;
+  font-size: 17px;
+}
+
+article th,
+article td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+article th {
+  background-color: rgba(0, 0, 0, 0.03);
+  font-weight: 600;
 }
 
 article blockquote {
