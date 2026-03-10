@@ -13,7 +13,7 @@ Before diving further into that idea, a few reflections on undergraduate college
 1. College applications can bring out substantial negative practices ranging from lying, manufacturing sob stories, and working on extracurriculars solely for the sake of applications (although this one in particular, as long as some volunteering or some net good comes to the community in the process, I don't think joining additional extracurriculars to help with applications is purely a bad thing).
 1. I got to observe and re-experience constant feelings of stress, competition, comparison, and feeling like you're not enough throughout the process. On top of that, there's the constant stress about presenting what's already supposed to be a mature-for-your-age message or learning in an eye-catchingly narrative fashion.
 
-In retrospect I wish I could remind my high school self that my worldview at the time was quite limited, despite having gone to extracurricular competitions with students from around the globe and having visited my extended family in India. I still had a relatively limited and linear perspective on what success in high school meant (namely being somewhat popular, getting great grades, and eventually getting into a good college for a desirable major). In retrospect I've seen people come from very different educational, financial, and ethnic family backgrounds but end up working similar jobs or achieving similar levels of education and financial success.
+In retrospect, I wish I could remind my high school self that my worldview at the time was quite limited, despite having gone to extracurricular competitions with students from around the globe and having visited my extended family in India. I still had a relatively limited and linear perspective on what success in high school meant (namely getting great grades and eventually getting into a good college for a desirable major). I've since seen people come from very different educational, financial, and ethnic family backgrounds but end up working similar jobs or achieving similar levels of education and financial success.
 
 > One interesting aside: I have a constant mental back-and-forth on whether it's possible to create a healthy mindset that minimizes comparison and encourages only comparing against oneself without decreasing the overall amount of net output in one's life or the economy, although this opens up lots of philosophical rabbit holes about what the purpose of a life is and how to engage in competition in a mentally healthy fashion.
 
@@ -21,8 +21,8 @@ In retrospect I wish I could remind my high school self that my worldview at the
 
 Helping my brother through this, the process involved:
 
-1. Trying to identify a core guiding thread in all of the classes and extracurriculars he did over the course of high school. Even though many of these things were driven by the opportunity presenting itself and out of pure interest, and even though those interests were very diverse as he continued to explore things like Model UN, interning at an ophthalmology clinic, and shadowing our other brother.
-1. Doing an immense amount of self-reflection and soul-searching to understand what it is about these different activities that motivated him, and to understand what he wanted to get out of college and what he wanted to use his education to do in the future. But this incentivizes kids to try and manufacture different narratives about their experiences (and in some cases, traumas).
+1. Trying to identify a core guiding thread in all of the classes and extracurriculars he did over the course of high school (even though many of these things were driven by the opportunity presenting itself and out of pure interest, and even though those interests were very diverse as he continued to explore things like Model UN, interning at an ophthalmology clinic, etc.).
+1. Doing an immense amount of self-reflection and soul-searching to understand what it is about these different activities that motivated him, and to understand what he wanted to get out of college and what he wanted to use his education to do in the future.
 1. Writing an enormous number of essays back to back to back in a particular narrative style designed to demonstrate his personality, "intellectual vitality," and maturity of thinking while catching the admissions officer's eye. This was relatively different from the typical prose that he writes and that I was taught to write during high school.
 
 Reflecting on this gave me an interesting question: how many cumulative hours are spent by students applying to college? And if the number is way higher than it needs to be, could we come up with a structured opportunity for them to spend that time elsewhere?
@@ -36,7 +36,7 @@ Before trying to answer that, it's worth understanding that the US holistic admi
 - **China**: The Gaokao, a 2-3 day national exam taken by roughly 10 million students each June, is the near-total determinant of university placement. Students submit ranked lists of universities after scores are released, and a computerized system matches them to seats based on their score and province of origin. Essentially no role for essays, recommendations, or extracurriculars.
 - **Australia**: The ATAR (Australian Tertiary Admission Rank), a percentile ranking from Year 12 exams, is the primary criterion for most programs. Students apply through centralized state admissions centers, listing preferences in ranked order. No personal essays or recommendation letters for standard entry. The cycle from application to enrollment is roughly 4-5 months.
 
-The pattern is clear: most countries use a single exam or academic metric as the primary (or sole) admissions criterion. The US is an outlier in asking students to produce extensive personal narratives, curate extracurricular profiles, and write dozens of individualized essays across many schools.
+Most countries use a single exam or academic metric as the primary (or sole) admissions criterion. The US is an outlier in asking students to produce extensive personal narratives, curate extracurricular profiles, and write dozens of individualized essays across many schools.
 
 ## How Much Time Does This Take?
 
@@ -54,17 +54,13 @@ Here's a rough estimate of the time investment per applicant:
 |Financial Aid (FAFSA/CSS)|5 Hours|15 Hours|
 |**Total**|**~75 Hours**|**~300 Hours**|
 
-And then there's a large number of students doing the bare minimum, maybe applying to a single school or only a couple with minimal essays. The Common Application alone processed over 7 million applications in the 2023-24 cycle.
-
-To estimate the aggregate: the US produces approximately 3.5 to 3.8 million high school graduates annually. If even a conservative fraction of those students spend 50-100 hours on applications, the collective time investment is staggering. Hundreds of millions of hours, a substantial portion of which goes toward applications to schools that will reject them.
+There are likely a large number of students doing the bare minimum, applying to a single school or only a couple with minimal essays. The Common Application processed 7 million applications in the 2023-2024 cycle. Because the United States has between 3.5 and 3.8 million high school graduates annually, if even a small fraction of these students spend 50+ hours on applications, their collective time investment is very large. 
 
 ## The Problems
 
 ### Mental Health
 
-The admissions process is frequently cited as a primary driver of adolescent anxiety. Surveys indicate that 76% of students view the application process as a "life-defining moment," and 52% describe it as the most stressful academic experience they have ever faced. This is not merely hard work; for many students it becomes existential dread. The proliferation of online forums like Reddit's r/ApplyingToCollege creates a panopticon of social comparison, where students benchmark their "stats" against a hyper-competitive global peer group, leading to feelings of inadequacy even among high achievers.
-
-And I can confirm from watching my brother go through it (and from my own experience years ago) that this stress is very real.
+The admissions process is frequently cited as a primary driver of adolescent anxiety. Surveys indicate that 76% of students view the application process as a "life-defining moment," and 52% describe it as the most stressful academic experience they have ever faced. I can confirm from watching my brother go through it (and from my own experience years ago) that this stress is very real.
 
 ### The Paradox of "Holistic Review"
 
@@ -76,7 +72,7 @@ It is true that a lot of the acceptances at Ivies and similarly selective school
 
 The colleges' response to the pattern of shotgun applications is "yield rejection," where schools reject or waitlist applicants they suspect will choose a more prestigious school. This adds another layer of opacity and game theory to a process that's already opaque.
 
-### The Real Winners: Third-Party Intermediaries
+### The Real Winners
 
 The true "profit" in the system accrues to the gatekeepers of data and testing:
 
@@ -85,14 +81,12 @@ The true "profit" in the system accrues to the gatekeepers of data and testing:
 - **Private Consulting**: Admissions consulting can run $10,000 to $100,000 per client, creating a market that overwhelmingly favors wealthy families.
 - **Application Fees**: Universities collectively generate an estimated $500 million per year in application fees.
 
-This suggests that the financial surplus of the admissions frenzy accumulates not just in university endowments, but significantly in the accounts of the testing agencies and consultants that facilitate the sorting process.
-
-## The "Leaky Pipeline"
+## The Pipeline
 
 To evaluate alternatives, it helps to understand the baseline flow of students through the US education system:
 
-- **High school graduates**: The US produces approximately 3.5 to 3.8 million per year. This number is projected to peak around 2025-2026 and then decline due to the "demographic cliff."
-- **Non-graduates**: The status dropout rate is roughly 5.3%, meaning hundreds of thousands of students from each cohort do not complete high school.
+- **High school graduates**: The US produces approximately 3.5 to 3.8 million per year.
+- **Non-graduates**: The status dropout rate is roughly 5.3%.
 - **2-year college enrollment**: About 30-40% of college-goers start at a 2-year institution. The vast majority attend public community colleges (roughly 4.7 million enrolled).
 - **Completion rates**: This is the system's greatest failure point. Fewer than 40% of community college students earn a certificate or degree within six years. Among those who intend to transfer to a 4-year university (81%), only 33% successfully transfer, and only 14% of the original cohort eventually earn a bachelor's degree within six years.
 
@@ -104,9 +98,7 @@ Beyond the outcome, is the process itself valuable?
 
 **The "resilience" argument**: Proponents argue that the process teaches resilience, self-reflection, and how to digest failure. Developing a narrative for the Common App can force a 17-year-old to synthesize their identity. There's also something to be said for learning to collect resources, present yourself, and apply for things, skills that translate to employment, graduate school, and other contexts.
 
-**The "burnout" counter-argument**: The shotgun approach undermines this value. Writing 50 essays often devolves into a copy-paste exercise in marketing rather than genuine introspection. The skills developed (packaging oneself as a product to be consumed by an institution) may be less valuable than the genuine soft skills employers seek, such as adaptability, conflict resolution, and active listening. The "utility" of the process is rapidly diminishing as it becomes more industrial and less personal.
-
-I'll also say this (and I think many of my friends would agree): being accepted to a highly ranked college was something many of us fixated on through high school. In retrospect, it was quite rare to meet someone who was genuinely satisfied with their college experience, particularly along the dimension of which university they attended. And also a very small number of people actually transferred colleges, excluding those who went to community colleges and then transferred to four-year programs since that was typically their plan from the start.
+I'll also say this (and I think many of my friends would agree): being accepted to a highly ranked college was something many of us fixated on through high school. In retrospect, it was quite rare to meet someone who was genuinely unsatisfied with their college experience, particularly along the dimension of which university they attended. A very small number of people actually transferred colleges, excluding those who went to community colleges and then transferred to four-year programs since that was typically their plan from the start.
 
 ## Could We Design Something Better?
 
